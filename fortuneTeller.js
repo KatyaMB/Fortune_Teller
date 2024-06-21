@@ -12,7 +12,7 @@ console.log("Your age is " + age);
 
 // Start working out, best friend
 let pickNumber = prompt("Pick a number between 1 and 10");
-console.log("The number of years in which you'll meet your bestie is" + pickNumber);
+console.log("The number of years in which you'll meet your bestie is " + pickNumber);
 
 // Bestie name
 console.log("Your best friend will be called " + firstName + streetName);
@@ -29,7 +29,7 @@ console.log("You will have " + children + " children");
 
 //Hair dyed
 let dyeHair = Math.round(ageParsed / pickNumberParsed);
-console.log("In " + dyeHair + " you will dye your hair");
+console.log("In " + dyeHair + " years you will dye your hair " + faveColour);
 
 //Multiline template literal 
 console.log(`In ${pickNumber} years you will meet your best friend named ${firstName} ${streetName}
