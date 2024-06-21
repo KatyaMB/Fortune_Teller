@@ -29,7 +29,7 @@ console.log("You will have " + children + " children");
 
 //Hair dyed
 let dyeHair = Math.round(ageParsed / pickNumberParsed);
-console.log("In " + dyeHair + " years you will dye your hair ");
+console.log("In " + dyeHair + " years you will dye your hair");
 
 //Multiline template literal 
 console.log(`In ${pickNumber} years you will meet your best friend named ${firstName} ${streetName}
